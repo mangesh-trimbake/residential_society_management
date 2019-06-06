@@ -1,0 +1,14 @@
+UPDATE
+    wing
+SET
+    updated_at=:updated_at, 
+    id=:id, 
+    wing_name=:wing_name, 
+    society_id =:society_id , 
+    society_short_name=:society_short_name, remark=:remark, created_at=:created_at, updated_at=:updated_at, deleted_at=:deleted_at WHERE id=2;
+
+
+UPDATE
+    user
+SET
+    updated_at=:updated_at, wallet_amt=:wallet_amt WHERE user_id=24;
