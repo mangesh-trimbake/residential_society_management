@@ -1,8 +1,8 @@
-var api_link = "http://localhost/residential_society_management";
-// var api_link = "http://137.116.117.172/HSS"
+// var api_link = "http://localhost/residential_society_management";
+var api_link = "http://137.116.117.172/rsm"
 
-var fe_link = "http://localhost/residential_society_management/html";
-// var fe_link = "http://137.116.117.172/HSS/html";
+// var fe_link = "http://localhost/residential_society_management/html";
+var fe_link = "http://137.116.117.172/rsm";
 
 function stepSubmit(formData, api_url, callback) {
 
